@@ -1,0 +1,47 @@
+Python is a simple and easy to understand programming language. It is a General Purpose language 
+and it is being used in diverse fields like Data science, ML, AI, Web Development, Desktop apps etc.
+It is very easy compared to C, C++, Java languages due to its almost English like Syntax.
+
+** IMPORTANT points **:
+High Level language
+No need of ;(semi-colon) to terminate/differentiate code blocks/statements
+Indentation used to make reader friendly language ( throws an error if u don't indent correctly)
+ 
+
+ **First Python Program**:
+
+    Print("Hello, World!")
+     -> Hello, World!
+
+     ## Variables
+     Variable is a name given to a memory space/location  that holds certain value which you can use in your program.
+
+     rules of declaring variable name:
+     1) Cannot Start with numbers, Special numbers (underscore '_' can be used )
+     2) No White Spaces are allowed
+     3)Case-Sensitive Apple & apple are two different variables as per python
+     4)Keywords Cannot/Shouldn't be used as a variable name
+
+
+
+
+
+     ##DATATYPE:  The type of value that is stored in a variable 
+     There are multiple datatypes in Python. Primarily, there are 5 Basic datatypes
+     
+     1) Integer Literal
+         e.g. num1 = 23, noOfRuns = 192 etc
+
+     2) String Literal
+          e.g. player = "Shafi", battingStyle = "Right hand batsman" etc
+
+     3) Float
+          e.g. cpga = 9.21, BattingAverage = 54.2033 etc
+
+     4) Boolean
+          isMarried = TRUE, isDied = FALSE
+
+     5) None
+         Hobbies = None, badHabits = None
+
+     Unlike other programming languages, we don't need to specify the datatype for each variable, python is smart enough to identify on its own. 
