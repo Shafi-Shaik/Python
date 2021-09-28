@@ -1,0 +1,34 @@
+--                       STRING FUNCTIONS
+
+
+
+set @dt="         MySQL 8.0dfdfdfd.13 and higher supports functional key  that index expression                 values rather than column or column prefix values. Use of functional key parts enables indexing of values not stored directly in the table. EXAMPLEs: ";
+
+
+
+
+ SELECT
+  	 length(@dt),
+   	 length(trim(both from @dt)),
+      	 locate("parts", @dt),
+      	 instr( @dt,"part"),
+      	 right(@dt, 13),
+       	 left(trim(@dt), 13),
+       	 mid(@dt,3,10),
+     	 right(lower(@dt),12),
+        	 upper(left(@dt,14)),
+      	 replace(@dt, '0dfdfd',' shafimohiddin '),
+     	 reverse(@dt),
+     	 repeat(' shafi $', 3) ;
+
+
+ 
+ SELECT 
+	SUBSTRING('Quadratically',5), 
+	SUBSTRING('foobarbar' FROM 4),
+	SUBSTRING('Quadratically',5,6),
+	SUBSTRING('Sakila', -3), 
+	SUBSTRING('Sakila', -5, 3) ;
+
+             -- 'ratically' ,   'barbar',     'ratica',         'ila',    'aki',   'ki'
+
